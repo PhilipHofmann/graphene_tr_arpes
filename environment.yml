@@ -1,0 +1,28 @@
+name: tr-arpes
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyter
+  - ipykernel
+  - ipywidgets
+  - notebook
+  - tqdm
+  - h5py
+  - imageio
+  - pillow
+  - plotly
+  - numba
+  - sympy
+  - pip
+  - pip:
+      - igor2
+      - xarray
+      - netcdf4
